@@ -1,0 +1,76 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+
+  line-height: 1.6;
+  background-color: white;
+  color: black;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header {
+  background: white;
+  padding: 2rem;
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header nav a {
+  color: black;
+  padding: 0.5rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background-color: #039595;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: black;
+}
+
+.home {
+  padding-top: 3rem;
+}
+
+.home p {
+  text-align: center;
+  padding: 2rem;
+  font-size: 2rem;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.home-wrapper p:first-child {
+  font-weight: bold;
+}

@@ -1,0 +1,68 @@
+.table {
+  width: 75%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.table__header {
+  background-color: cream;
+  color: black;
+}
+
+.table__header-cell {
+  padding: 1rem;
+  border: 1px solid #351e5e;
+}
+
+.misdemeanour-cell {
+  display: flex;
+  align-items: center;
+}
+
+.misdemeanour-cell select {
+  margin-left: 1rem;
+  background-color: white;
+  border: 1px solid #039595;
+  color: #351e5e;
+  padding: 0.5rem;
+}
+
+.table__row {
+  background-color: #f4f4f4;
+}
+
+.table__row--even {
+  background-color: #fff;
+}
+
+.table__cell {
+  padding: 10px;
+  border: 1px solid #906458;
+}
+.table__cell img {
+  display: block;
+  margin: 0 auto;
+}
+
+img {
+  border-radius: 5px;
+}
+
+.table__header-cell select {
+  background-color: white;
+  color: #57395b;
+  border: 1px solid #351e5e;
+  padding: 5px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.table__header-cell select:focus {
+  outline: none;
+  border-color: #039595;
+}
+
+.table__header-cell select option {
+  padding: 5px;
+}

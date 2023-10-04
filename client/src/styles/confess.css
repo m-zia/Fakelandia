@@ -1,0 +1,92 @@
+.confess__form {
+  width: 80%;
+  max-width: 50%;
+  margin: auto;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.confess__fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Form Field Styling */
+.form__field {
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.form__label {
+  display: block;
+  font-weight: bold;
+}
+
+.form__error {
+  color: red;
+  font-size: 12px;
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+}
+
+/* Input and Textarea Styling */
+input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+/* Select Input Styling */
+select {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.confess__button {
+  display: block;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.confess__button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.confess__button:hover {
+  background-color: #0056b3;
+}
+
+.confess__loading,
+.confess__error {
+  color: #333;
+  font-weight: bold;
+}
+
+.confess__error {
+  color: red;
+}
+
+.confess__description {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-align: center; /* Center the text */
+}
