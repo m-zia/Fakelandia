@@ -11,7 +11,7 @@ const Navbar: React.FC = () => {
   return (
     <nav className="navigation">
       <a href="/" className="brand-name">
-        FakeLandia Justice Deparment
+        FakeLandia Justice Department
       </a>
       <button
         className="hamburger"
